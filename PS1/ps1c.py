@@ -14,7 +14,6 @@ SEMI_ANNUAL_RAISE=0.07
 
 
 def how_much_to_save_monthly():
-    
     starting_salary = float(input("Enter your starting salary: "))
     savings_needed = TOTAL_COST * PORTION_DOWN_PAYMENT
     
@@ -45,9 +44,7 @@ def how_much_to_save_monthly():
     print("Steps in bisection search: ", steps)
 
     
-    
 def savings(annual_salary=0, portion_saved=0):
-    
     current_savings = 0
     for month in range(0, MONTHS):
         current_savings += (annual_salary / 12.0) * portion_saved
